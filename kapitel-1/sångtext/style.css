@@ -1,0 +1,17 @@
+body{
+    background: #000;
+    background-image: url(./bilder/vidar-nordli-mathisen-JoxgCs5h8FA-unsplash.jpg);
+}
+h1 {
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    font-style: oblique;
+}
+h2 {
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
