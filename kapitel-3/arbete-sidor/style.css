@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body.sida1 {
+    background-image: url(./bilder/free-seamless-tileable-patterns-40.jpg);
+}
+body.sida2 {
+    background-image: url(./bilder/premium_photo-1673795754005-214e3e1fccba.jpg);
+}
+body.sida3 {
+    background-image: url(./bilder/Untitled-14.jpg);
+}
+body.sida4 {
+    background-image: url(./bilder/photo-1648583189779-536c76a17957.jpg);
+}
+body.sida5 {
+    background-image: url(./bilder/depositphotos_5542393-stock-illustration-seamless-web-pattern.jpg);
+}
+body.sida6 {
+    background-image: url(./bilder/1000_F_557155226_beNASzCes2t7b5AXNYlvbgrw64Gnk08k.jpg);
+}
+div {
+   background-color: #fff;
+   width: 500px;
+   margin: auto;
+   margin-top: 150px;
+   border: 5px dashed #888;
+}
+h1 {
+    font-family: "Rokkitt", system-ui;
+    padding: 10px;
+}
+p {
+    font-family: "Poppins", sans-serif;
+    padding-left: 20px;
+    font-size: 17px;
+}
+a{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
