@@ -1,0 +1,41 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    background-color: #c1121f;
+    color: #85cadb;
+}
+div.sida{
+    background-color: #fb8500;
+    width: 700px;
+    padding: 50px;
+    margin: auto;
+}
+div.inlagg {
+    background-color: #780000;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 50px white;
+}
+h1{
+  color: #caf0f8;
+  margin-left: 225px;   
+}
+h2{
+}
+img{
+    width: 500px;
+    border: solid 5px cornsilk ;
+    margin-top: 50px;
+}
+p.datum,p,h2{
+    color: white    ;
+}
+p{
+
+}
