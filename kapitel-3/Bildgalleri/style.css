@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+body {
+    background-color: gray;
+}
+/* Kontainer Utseende */
+.kontainer {
+    width: 800px;
+    padding: 30px;
+    margin: auto;
+    background-color: gray;
+}
+
+h1 {
+  margin-left: 300px;
+  font-family: "Danfo", serif;
+}
+
+h2 {
+    margin-left: 300px;
+    font-family: "Playwrite GB S", cursive;
+}
+
+/* Boxarnas Utseende */
+.bild{
+    background-color: black;
+    color: #fff;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+img{
+    width: 100%;
+        
+}
+
+h3 {
+    
+}
+
+p {
+    
+}
+
+a {
+    color: red;
+}
