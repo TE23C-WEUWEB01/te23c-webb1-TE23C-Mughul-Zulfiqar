@@ -1,0 +1,84 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+* Enkel CSS-reset
+html {
+     box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+   padding: 0;
+}
+
+/* Layouten  */
+body{
+     background-color: #6c81ac;
+}
+.kontainer{
+    font-family: "Sacramento", cursive;
+     width: 800px;
+     margin: auto;
+     padding: 40px;
+     background-color: #fcfbfb;
+} 
+.kolumner{
+     display: flex;
+     gap: 15px;
+
+}
+.bild{
+     background-color:#000000;
+     color: white;
+     padding: 20px;
+     display: flex;
+     gap: 15px;
+     margin-bottom: 30px;
+     border-radius: 10px;
+}
+/* Rubrikerna */
+h1{
+    font-family: "Sacramento", cursive;
+     font-size: 75px;
+     text-align: center;
+     margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Sofia", cursive;
+}
+
+/* sidans innehåll */
+img{
+   width: 100px;
+   border: white solid 5px;
+   border-radius: 10px;
+   height: 50%;
+}
+.bildtext{
+   
+}
+.Tack{
+  text-align: center;
+}
+a{
+ color: blue;
+}
+.nedre{
+    width: 350px;
+    margin: auto;
+}
