@@ -20,7 +20,7 @@ body {
     width: 800px;
     padding: 20px   ;
     margin: auto;
-    background-color: #05ff05;
+    background-color: #fa1515;
 }
 
 /* Menyns utseende */
@@ -35,7 +35,7 @@ body {
 }
 .kontainer ul a {
   text-decoration: none;
-  color: #3e71f0;
+  color: #00f16c;
   background-color: #000000;
   border-radius: 3px;
   padding: 10px;
@@ -45,13 +45,13 @@ body {
   box-shadow: 3px 3px 0 ;
 }
 .kontainer ul .aktiv {
-    background-color: #0590fa;
+    background-color: #03b051;
 }
 .kontainer ul a:hover {
-    color: #00eeff;
+    color: #ffffff;
     transform: translateY(-5px);
-    background-color: var(#00eeff);
-    color: var(#00eeff);
+    background-color: var(#c415b2);
+    color: var(#c415b2);
     transition: all 0,3s;
 }
 
@@ -59,7 +59,7 @@ body {
 .kontainer h1 {
     font-family: "Sarina", cursive;
     font-weight: 800;
-    color: rgb(74, 2, 255);
+    color: #00ff00;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -85,10 +85,10 @@ body {
 .kontainer .tack {
    color: white;
    font-style: italic;
+   text-align: center;
 }
 .kontainer .tack a{
-    color: rgb(255, 0, 0);
+    color: #00ff08ef;
     text-decoration: none;
-
- }
-
+    
+}
