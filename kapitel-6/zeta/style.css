@@ -12,12 +12,11 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 /* Sidlayouten */
 body {
     background-color: #6b5555;
-    background-image: url(https://karye.gitlab.io/weuweb01/images/image-134.jpg);
+    background-image: url(https://karye.gitlab.io/weuweb01/images/image-141.jpg)
 }
 .kontainer {
     width: 1200px;
     margin: auto;
-  font-family: "Modak", serif;
   font-weight: 400;
   font-style: normal;
   color: #020202;
@@ -28,8 +27,9 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px 10px; 
-    margin-left: 130px;
+    margin-left: 100px;
     margin-bottom: 20px;
+
 }
 .sidhuvud .meny {
     padding: 10px;
@@ -38,27 +38,22 @@ body {
     text-decoration: none;
     color: #ffffff;
     padding:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
 }
 .sidhuvud .meny a img {
-
 }
 .sidhuvud .meny img{
     width: 180px;
 }
-.sidhuvud .erbjudanden {
-    text-decoration: none;
-    color: #CC2200;
-    padding: 10px;
-    border: 2px solid #CC2200;
-    border-radius: 5px;
-}
+
 
 /* Sidinnehållet */
 .sida h2 {
-    font-size: 45px;
-    font-weight: 400;
+    font-size: 43px;
     text-align: center;
     margin-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p {
     text-align: center;
@@ -67,7 +62,7 @@ p {
     font-weight: 400;
 }
 .sida {
-    background-color: #fff;
+    background-color: #e6e5e1;
 }
 .sida .kolumner-3 {
     display: grid;
@@ -78,6 +73,8 @@ p {
     text-align: center;
     border-radius: 10px;
     height: 310px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
 }
 .sida .kolumner-3 .produkt img {
     width: 250px;
