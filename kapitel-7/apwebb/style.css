@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -25,6 +27,9 @@ ul {
 img {
     width: 100%;
 }
+body {
+    background-image: url(./bilder/krystal-ng-O07o2Cd_vX0-unsplash.jpg);
+}
 
 /* Sidans layout */
 .kontainer {
@@ -33,27 +38,67 @@ img {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-areas: 
-    "sidhuvud dada"
+    "sidhuvud sidhuvud"
     "innehall sidebar"
-    "sidfot sidbar";
+    "sidfot sidfot";
+    gap: 20px;
 }
 
 header {
     grid-area: sidhuvud;
-    background-color: green;
 }
 
 main {
     grid-area: innehall;
-    background-color: violet;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 50px;
 }
 
 aside {
     grid-area: sidebar;
-    background-color: orangered;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
 }
 
 footer {
     grid-area: sidfot;
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    pad
 }
+
+/* Sidhuvudet */
+header h1 {
+    font-family: "Freckle Face", serif;
+    font-size: 80px;
+    color: #fff;
+}
+header h2 {
+    font-family: "Freckle Face", serif;
+    font-size: 30px;
+    color: #fff;
+}
+header nav {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background: rgb(116,241,111);
+background: linear-gradient(0deg, rgba(116,241,111,1) 40%, rgba(138,239,154,1) 57%, rgba(60,155,66,1) 100%);
+padding: 20px;
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+header nav a:hover {
+
+}
+/* sidans innehåll */
+
+
+/* sidofält */
+
+
+/* sidfoten */
