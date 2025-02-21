@@ -27,21 +27,56 @@ ul {
 img {
     width: 100%;
 }
+
 body {
     background-image: url(./bilder/krystal-ng-O07o2Cd_vX0-unsplash.jpg);
 }
 
+/* Responsiv layout */
+/* små enheter bredd< 576px  */
+@media (min-width: 576px) {
+    .kontainer {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas:
+            "sidhuvud sidhuvud"
+            "innehall sidebar"
+            "sidfot sidfot";
+        gap: 20px;
+    }
+}
+
+/* mellan enheter bredd< 576px < bredd < 768 */
+@media (min-width: 758px) {
+    .kontainer {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto 200px;
+        grid-template-areas:
+            "sidhuvud sidhuvud"
+            "innehall sidebar"
+            "sidfot sidfot";
+        gap: 20px;
+    }
+}
+
 /* Sidans layout */
-.kontainer {
-    width: 1000px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas: 
-    "sidhuvud sidhuvud"
-    "innehall sidebar"
-    "sidfot sidfot";
-    gap: 20px;
+/* stora enheter: bredd > 1280  */
+@media (min-width: 1280px) {
+    .kontainer {
+        width: 1280px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "sidhuvud sidhuvud"
+            "innehall sidebar"
+            "sidfot sidfot";
+        gap: 20px;
+    }
 }
 
 header {
@@ -64,7 +99,7 @@ aside {
 
 footer {
     grid-area: sidfot;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 245);
     border-radius: 20px;
     pad
 }
@@ -75,26 +110,29 @@ header h1 {
     font-size: 80px;
     color: #fff;
 }
+
 header h2 {
     font-family: "Freckle Face", serif;
     font-size: 30px;
     color: #fff;
 }
+
 header nav {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-background: rgb(116,241,111);
-background: linear-gradient(0deg, rgba(116,241,111,1) 40%, rgba(138,239,154,1) 57%, rgba(60,155,66,1) 100%);
-padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(116, 241, 111);
+    background: linear-gradient(0deg, rgba(116, 241, 111, 1) 40%, rgba(138, 239, 154, 1) 57%, rgba(60, 155, 66, 1) 100%);
+    padding: 20px;
 }
+
 header nav a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     padding: 20px 20px;
 }
-header nav a:hover {
 
-}
+header nav a:hover {}
+
 /* sidans innehåll */
 
 
