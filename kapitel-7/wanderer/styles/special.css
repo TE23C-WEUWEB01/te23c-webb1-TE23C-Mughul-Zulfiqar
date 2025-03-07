@@ -1,5 +1,6 @@
 .Wanderer {
     background-color: black;
+    color: #fff;
 }
 .Wanderer .vimeo {
     position: fixed;
@@ -21,4 +22,21 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border: none;
+}
+.Wanderer main {
+    /* Css trick för vertikal centrering */
+    display: grid;
+    align-items: center;
+}
+.Mars h1 {
+    color: #5D080D;
+}
+.Mars header nav a {
+    color: #5D080D;
+}
+.container header nav a:hover{
+    border-bottom: 2px solid #5D080D;
+}
+.container header nav a.active{
+    border-bottom: 3px solid #5D080D;
 }
