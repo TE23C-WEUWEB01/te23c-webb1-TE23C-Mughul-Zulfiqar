@@ -1,0 +1,16 @@
+.kontainer {
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+    background: #c5c5c5
+}
+h1 {
+    
+}
+p {
+    visibility: hidden;
+}
+img {
+    visibility: hidden;
+    margin: auto;
+}
